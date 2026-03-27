@@ -1,0 +1,47 @@
+[
+  {
+    "sigla": "dtlk",
+    "ambiente": "hml",
+    "aws_account_alias": "aws-dtlk-hml",
+    "aws_account_id": "111111111111",
+    "aws_region": "sa-east-1",
+    "service": "documentdb",
+    "secret_prefix": "/dtlk/hml",
+    "default_tags": {
+      "owner": "data-platform",
+      "env": "hml",
+      "sigla": "dtlk",
+      "managed_by": "backstage"
+    }
+  },
+  {
+    "sigla": "dtlk",
+    "ambiente": "prd",
+    "aws_account_alias": "aws-dtlk-prd",
+    "aws_account_id": "222222222222",
+    "aws_region": "sa-east-1",
+    "service": "documentdb",
+    "secret_prefix": "/dtlk/prd",
+    "default_tags": {
+      "owner": "data-platform",
+      "env": "prd",
+      "sigla": "dtlk",
+      "managed_by": "backstage"
+    }
+  },
+  {
+    "sigla": "fin",
+    "ambiente": "hml",
+    "aws_account_alias": "aws-fin-hml",
+    "aws_account_id": "333333333333",
+    "aws_region": "us-east-2",
+    "service": "rds",
+    "secret_prefix": "/fin/hml",
+    "default_tags": {
+      "owner": "finance-platform",
+      "env": "hml",
+      "sigla": "fin",
+      "managed_by": "backstage"
+    }
+  }
+]
