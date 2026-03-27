@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local env files
+.env
+.env.*
+
+# Editor and OS noise
+.DS_Store
+*.swp
+
+# Build and cache
+.cache/
+
+# Backstage workspace artifacts
+portal/node_modules/
+portal/dist/
+portal/dist-types/
+portal/coverage/
+portal/.pnp.*
+portal/.yarn/*
+!portal/.yarn/releases
+!portal/.yarn/plugins
+!portal/.yarn/patches
+!portal/.yarn/sdks
+!portal/.yarn/versions
+!portal/.yarn/install-state.gz
+
+# Docker local state
+*.pid
